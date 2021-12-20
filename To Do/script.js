@@ -4,6 +4,12 @@ function submitForm(){
         var data = new FormData(form);
         for (const [name,value] of data) {
           console.log(name,value)
+          //form.reset()
         }
+        
       })
+      
+      
 }
+
+
