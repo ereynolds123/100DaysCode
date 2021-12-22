@@ -21,6 +21,7 @@ function addingTask(taskData){
     deleteButton.addEventListener("click", deletingTask)
     document.body.appendChild(taskElement)
     document.body.appendChild(deleteButton)
+    
 }
 
 
