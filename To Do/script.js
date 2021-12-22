@@ -3,14 +3,15 @@ function submitForm(){
     form.addEventListener("submit", function(e){
         e.preventDefault();
         taskData = document.getElementById("activity").value;
-        addingTask()
+        addingTask(taskData)
+        form.reset(taskData)
         return taskData
     })
     
 }
 
 //Adds a task element
-function addingTask(){
+function addingTask(taskData){
     taskElement = document.createElement("h3");
     deleteButton = document.createElement("Button");
     taskElement.innerHTML = taskData;
