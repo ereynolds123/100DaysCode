@@ -1,12 +1,14 @@
 //Submits the form
 function submitForm(){
+  const container = document.getElementById("container")
     form.addEventListener("submit", function(e){
         e.preventDefault();
         taskData = document.getElementById("activity").value;
         addingTask(taskData)
-        form.reset(taskData)
+        form.reset()
         return taskData
-    })
+    });
+  
     
 }
 
@@ -24,9 +26,19 @@ function addingTask(taskData){
     
 }
 
-
-//Removes a task element
 function deletingTask(){
-    taskElement.remove()
-    deleteButton.remove()
+  container.addEventListener("click", function(e) {
+    const tgt = e.target;
+    if (tgt.classList.contains("delete")) {
+     //Removes a task element
+      tgt.closest("div").remove();
+    }
+  })
 }
+
+
+// //Removes a task element
+// function deletingTask(){
+//     taskElement.remove()
+//     deleteButton.remove()
+// }
