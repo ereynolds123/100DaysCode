@@ -17,7 +17,7 @@ function addingTask(taskData){
     taskElement.innerHTML = taskData;
     taskElement.id = "taskElement"
     deleteButton.innerHTML ="Delete";
-    deleteButton.id ="deleteButton";
+    //deleteButton.id = taskData;
     deleteButton.addEventListener("click", deletingTask)
     document.body.appendChild(taskElement)
     document.body.appendChild(deleteButton)
