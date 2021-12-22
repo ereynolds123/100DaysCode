@@ -22,3 +22,7 @@ Emotions/Feelings: Felt pretty good. Nice to code while working. I wish this str
 Day 5: 12/21/2021
 Progress: To do app is creating list elements and deleting elements on the To Do app. There is a bug that the second task is duplicating the task. 
 Emotions/Feelings: Today felt pretty good. I didn't really get to into the bug. Seems similar to the bug I was seeing yesterday. Not sure how to fix it. 
+
+Day 6: 12/22/2021
+Progress: Created an income/tax/deductions calculator.
+Emotions: Today was really exciting. I am starting to look forward to my time coding. Like today I built something useful. I can accurately estimate how much I will have for every pay check (which will change a fair bit because I don't get paid for vacation.)
