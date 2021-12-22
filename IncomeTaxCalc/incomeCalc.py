@@ -2,13 +2,16 @@
 
 #Inputs
 hoursWorked = float(input("Enter the amount of hours worked: "))
-payRate = 58
+payRate = float(input("Enter your pay rate in dollars per hour (to two decimal places): "))
 taxRate = 0.16
+deductions = 0.10
 
 #Calculates pay
 grossPay = hoursWorked * payRate 
 amountOfTax = grossPay * taxRate
-takeHomePay = grossPay -amountOfTax
-print(grossPay)
-print(amountOfTax)
-print(takeHomePay)
+deductions = grossPay * deductions
+takeHomePay = grossPay -amountOfTax - deductions
+print("The gross pay is; $" + str(round(grossPay,2)))
+print("The total amount of tax taken out is: $" + str(round(amountOfTax,2)))
+print("The total amount of deductions taken out is: $" + str(round(deductions,2)))
+print("The total take home pay is: $" + str(round(takeHomePay,2)))
