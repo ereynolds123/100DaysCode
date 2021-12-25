@@ -26,3 +26,7 @@ Emotions/Feelings: Today felt pretty good. I didn't really get to into the bug. 
 Day 6: 12/22/2021
 Progress: Created an income/tax/deductions calculator.
 Emotions: Today was really exciting. I am starting to look forward to my time coding. Like today I built something useful. I can accurately estimate how much I will have for every pay check (which will change a fair bit because I don't get paid for vacation.)
+
+Day 7: 12/24/2021
+Progress: Created a JS clock. Began my Girls of Spotify scraper. Set up complete. Processing natural language and outputting all full names in a text 
+Emotions: JS clock was super easy. The Girls of Spotify is a really cool project I have wanted to do for a while. The feeling I got when the NLKT processor compiles was like nothing else! I love coding today.... even though I have no idea where to go from here. 
