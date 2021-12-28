@@ -30,3 +30,11 @@ Emotions: Today was really exciting. I am starting to look forward to my time co
 Day 7: 12/24/2021
 Progress: Created a JS clock. Began my Girls of Spotify scraper. Set up complete. Processing natural language and outputting all full names in a text 
 Emotions: JS clock was super easy. The Girls of Spotify is a really cool project I have wanted to do for a while. The feeling I got when the NLKT processor compiles was like nothing else! I love coding today.... even though I have no idea where to go from here. 
+
+Day 8: 12/25/2021
+Progress: Worked on girls Code of Spotify. Got the authentication to work. 
+Emotions: Today I forgot to journal. The day kinda sucked. 
+
+Day 9: 12/27/2021
+Progress: Worked on hacker rank problems. Got code to compile. 
+Emotions: Well, I got something. But the problem wasnt solved. 
